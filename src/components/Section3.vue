@@ -2,7 +2,10 @@
     <div class="div-background">
         <Polygonf position="topleft-to-topright"></Polygonf>
         <div class="container">
-            <div class="row justify-content-center history-container py-4">
+            <div class="row justify-content-center history-container py-2 py-md-4">
+                <div class="col-12 mb-3 mb-md-5">
+                    <h2 class="c-white text-center">Historias</h2>
+                </div>
                 <div class="col-md-2 col-3">
                     <History></History>
                 </div>
@@ -10,7 +13,7 @@
                     <History></History>
                 </div>
                 <div class="col-md-2 col-3">
-                       <History></History>
+                    <History></History>
                 </div>
                 <div class="col-md-2 col-3">
                     <History></History>

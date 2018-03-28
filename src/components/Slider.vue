@@ -1,13 +1,13 @@
 <template>
 <div class="row mt-3 mb-5 my-md-0">
-    <div class="col-12 mb-2">
+    <div class="col-12 col-lg-12 mb-3 text-center text-lg-left">
       <h3 class="c-white">¿Qué tan fuerte lo prefieres?</h3>
     </div>
-    <div class="col-10 my-3">
+    <div class="col-12 col-lg-10 my-2">
         <input type="range" id="slider" name="slider"> 
         <!-- <output for="slider" onforminput="value = slider.valueAsNumber;"></output> -->
     </div>
-    <div class="col-10 my-3 my-md-0 text-center">
+    <div class="col-12 col-lg-10 mt-2 text-center">
       <div class="row justify-content-center">
         <div class="col-6">
           <a class="btn-continuar btn-aqua b-aqua bold d-block fs-16">Continuar <i class="icon icon-chevron-right"></i></a>  

@@ -33,7 +33,7 @@ export default {
 <style>
 .coffe-card {
   border-radius: 5px;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 img {

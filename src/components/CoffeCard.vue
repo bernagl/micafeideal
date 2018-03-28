@@ -1,9 +1,9 @@
 <template>
-  <div class="coffe-card row justify-content-center text-center b-white py-4 mx-4 mx-md-0">
+  <div class="coffe-card row justify-content-center text-center b-white pb-4 pt-2 mx-4 mx-md-0">
       <div class="col-12">
-          <h3 class="c-lightpurple">{{ title }}</h3>
+          <h3 class="c-lightpurple mb-4">{{ title }}</h3>
           <img src="https://www.cafescumbal.com/wp-content/uploads/2017/03/producto-bolsa1k-granseleccion.png" alt="">
-          <h2 class="c-lightpurple">{{ name }}</h2>
+          <h2 class="c-lightpurple mt-2">{{ name }}</h2>
           <div class="row align-items-center">
             <div class="col-6">
               <h2 class="title-after-price tached">$349</h2>
@@ -33,7 +33,7 @@ export default {
 <style>
 .coffe-card {
   border-radius: 5px;
-  opacity: .85;
+  opacity: 0.7;
 }
 
 img {

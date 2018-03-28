@@ -1,14 +1,18 @@
 h1 {
-  font-size: 34px !important;
+  font-size: 3rem !important;
 }
 h2 {
-  font-size: 30px !important;
+  font-size: 2rem !important;
 }
 h3 {
-  font-size: 26px !important;
+  font-size: 1.5rem !important;
 }
 h4 {
   font-size: 22px !important;
+}
+
+.fs-16 {
+  font-size: 16px;
 }
 
 .b-aqua {
@@ -44,23 +48,28 @@ h4 {
   font-weight: bold;
 }
 
+.d-block {
+  text-align: center;
+  display: block !important;
+}
+
 .btn-aqua {
-    border: 1px solid #28e7c3 !important;
-    border-radius: 50px;
-    color: white;
-    cursor: pointer;
-    padding: 10px !important;
-    transition: .5s;
-    -webkit-transition: .5s;
-  }
-  
+  border: 1px solid #28e7c3 !important;
+  border-radius: 50px;
+  color: white;
+  cursor: pointer;
+  padding: 10px !important;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+}
+
 .btn-aqua:hover {
-    background-color: #7622ab !important;
-    border: 1px solid #28e7c3 !important;
-    color: white !important;
-    transition: .5s;
-    -webkit-transition: .5s;
-  }
+  background-color: #7622ab !important;
+  border: 1px solid #28e7c3 !important;
+  color: white !important;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+}
 
 .btn-purple {
   border: 1px solid #7622ab !important;
@@ -68,18 +77,21 @@ h4 {
   color: white;
   cursor: pointer;
   padding: 10px !important;
-  transition: .5s;
-  -webkit-transition: .5s;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
 }
 
 .btn-purple:hover {
   background-color: #28e7c3 !important;
   border: 1px solid #7622ab !important;
   color: white !important;
-  transition: .5s;
-  -webkit-transition: .5s;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
 }
 
-/* .btn-mci:hover {
-  background: rgba(185, 178, 178, 0.71) !important
-} */
+/* --- MEDIA QUERYS --- */
+@media (max-width: 544px) {
+  .hidden-xs-down {
+    display: none;
+  }
+}

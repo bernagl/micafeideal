@@ -1,8 +1,8 @@
 <template>
-<fixed-header :threshold="10">
+<FixedHeader :threshold="10">
   <div class="nav px-3">
     <div class="nav-header">
-      <div class="nav-title">
+<div class="nav-title">
         <img src="../assets/logo.svg" alt="Mi café ideal" class="img-logo float-left">          
       </div>
     </div>
@@ -15,14 +15,14 @@
     </div>
     <input type="checkbox" id="nav-check">
     <div class="nav-links">
-      <a href="//github.io/jo_geek" target="_blank">Suscripción de café</a>
-      <a href="http://stackoverflow.com/users/4084003/" target="_blank">Comprar café</a>
-      <a href="https://in.linkedin.com/in/jonesvinothjoseph" target="_blank">Souvenirs</a>
-      <a href="https://codepen.io/jo_Geek/" target="_blank">Nuestro café</a>
-      <a class="btn-subscribe btn-aqua b-aqua bold">Encuentra tu café ideal</a>
+      <a target="_blank">Suscripción de café</a>
+      <a target="_blank">Comprar café</a>
+      <a target="_blank">Souvenirs</a>
+      <a target="_blank">Nuestro café</a>
+      <a class="btn-subscribe btn-aqua b-aqua bold">Encuentra tu café ideal</a>        
     </div>
   </div>
-</fixed-header>
+</FixedHeader>
 </template>
 
 <script>
@@ -44,7 +44,7 @@ export default {
   width: 100%;
   /* background-color: #4d4d4d; */
   background-color: rgba(23, 2, 32, 0.71);
-  
+
   position: relative;
 }
 
@@ -60,7 +60,9 @@ export default {
   padding-bottom: 5px;
 }
 
-.nav > .nav-header > .nav-title > img { width: 100% }
+.nav > .nav-header > .nav-title > img {
+  width: 100%;
+}
 
 .nav > .nav-btn {
   display: none;
@@ -89,7 +91,16 @@ export default {
   display: none;
 }
 
-@media (max-width: 907px) {
+@media (max-width: 909px) {
+  .nav {
+    height: 50px;
+  }
+  .nav > .nav-header > .nav-title > img {
+    width: 65%;
+  }
+  .nav .btn-subscribe {
+    width: 256px !important;
+  }
   .nav > .nav-btn {
     display: inline-block;
     position: absolute;
@@ -121,6 +132,8 @@ export default {
     overflow-y: hidden;
     top: 50px;
     left: 0px;
+    padding: 0px 20px;
+    z-index: 10;
   }
   .nav > .nav-links > a {
     display: block;

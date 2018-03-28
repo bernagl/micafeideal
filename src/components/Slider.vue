@@ -5,7 +5,6 @@
     </div>
     <div class="col-12 col-lg-10 my-2">
         <input type="range" id="slider" name="slider"> 
-        <!-- <output for="slider" onforminput="value = slider.valueAsNumber;"></output> -->
     </div>
     <div class="col-12 col-lg-10 mt-2 text-center">
       <div class="row justify-content-center">
